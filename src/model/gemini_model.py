@@ -60,7 +60,7 @@ class GeminiText2SQL:
         self,
         prompt: str,
         temperature: float = 0.0,
-        max_tokens: int = 256,
+        max_tokens: int = 512,
     ) -> str:
         """
         Generate SQL query from a Text-to-SQL prompt.
